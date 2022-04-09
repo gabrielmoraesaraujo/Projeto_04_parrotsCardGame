@@ -1,3 +1,55 @@
-body {
-    background-color: crimson;
+
+.corpo{
+    background-color: #EEF9BF;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 }
+
+.caixa{
+    width: 540px;
+    height: 63px;
+    margin-top: 40px;
+    /*background-color: red;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}    
+.h1{
+   
+    font-size: 63px;  
+
+    font-family: 'Roboto', sans-serif;
+   /* color: #75B79E;*/
+   font-weight: bold;
+}
+
+.containe{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 60px;
+    margin-right: 60px;
+
+}
+
+.carta{
+        width: 117px;
+        height: 146px;
+        background-color: #A7E9AF;
+        border-radius: 5px;
+        border-color: #99CEA8;
+        margin: 34px 34px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+img{
+    width: 100px;
+}
+
